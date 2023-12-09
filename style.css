@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgba(90, 98, 95, 0.396);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#mainStory{
+    height: 100px;
+    width: 100%;
+    border: 2px solid #dadada;
+    white-space: nowrap;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#mainStory::-webkit-scrollbar{
+    display: none;
+}
+#story{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid red;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+}
+#story img{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-size: cover;
+}
+#fullScreen{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-position: center;
+    background-size: cover;
+}
+/* #main{
+    height: 70%;
+    width: 100%;
+    border: 2px solid #74636378;
+}
+#header{
+    height: 25px;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+#dpimg{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+} */
+#post{
+    height: 100%;
+    width: 100%;
+}
+#post img{
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
